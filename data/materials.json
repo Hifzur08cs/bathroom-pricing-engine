@@ -1,0 +1,174 @@
+{
+  "materials": {
+    "ceramic_floor_basic": {
+      "name": "Ceramic Floor Tiles - Basic",
+      "category": "flooring",
+      "unit": "m²",
+      "base_cost": 22.0,
+      "supplier_margin": 0.15,
+      "quality_grade": "basic",
+      "availability_score": 0.95,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "ceramic_floor_standard": {
+      "name": "Ceramic Floor Tiles - Standard",
+      "category": "flooring",
+      "unit": "m²",
+      "base_cost": 35.0,
+      "supplier_margin": 0.18,
+      "quality_grade": "standard",
+      "availability_score": 0.90,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "wall_tiles_standard": {
+      "name": "Wall Tiles - Standard",
+      "category": "tiling",
+      "unit": "m²",
+      "base_cost": 28.0,
+      "supplier_margin": 0.15,
+      "quality_grade": "standard",
+      "availability_score": 0.90,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "tile_adhesive": {
+      "name": "Flexible Tile Adhesive",
+      "category": "consumables",
+      "unit": "kg",
+      "base_cost": 2.8,
+      "supplier_margin": 0.10,
+      "quality_grade": "standard",
+      "availability_score": 0.95,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "waterproof_membrane": {
+      "name": "Waterproof Membrane",
+      "category": "consumables",
+      "unit": "m²",
+      "base_cost": 12.0,
+      "supplier_margin": 0.15,
+      "quality_grade": "standard",
+      "availability_score": 0.90,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "shower_mixer_basic": {
+      "name": "Shower Mixer - Basic Chrome",
+      "category": "plumbing",
+      "unit": "unit",
+      "base_cost": 85.0,
+      "supplier_margin": 0.25,
+      "quality_grade": "basic",
+      "availability_score": 0.95,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "shower_mixer_premium": {
+      "name": "Shower Mixer - Premium Thermostatic",
+      "category": "plumbing",
+      "unit": "unit",
+      "base_cost": 220.0,
+      "supplier_margin": 0.30,
+      "quality_grade": "premium",
+      "availability_score": 0.75,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "toilet_standard": {
+      "name": "Wall-hung Toilet - Standard",
+      "category": "plumbing",
+      "unit": "unit",
+      "base_cost": 280.0,
+      "supplier_margin": 0.20,
+      "quality_grade": "standard",
+      "availability_score": 0.85,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "vanity_unit_60cm": {
+      "name": "Vanity Unit 60cm with Basin",
+      "category": "installation",
+      "unit": "unit",
+      "base_cost": 320.0,
+      "supplier_margin": 0.25,
+      "quality_grade": "standard",
+      "availability_score": 0.80,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "pipes_pvc": {
+      "name": "PVC Pipes and Fittings",
+      "category": "plumbing",
+      "unit": "m",
+      "base_cost": 8.5,
+      "supplier_margin": 0.15,
+      "quality_grade": "standard",
+      "availability_score": 0.95,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "bathroom_paint_basic": {
+      "name": "Bathroom Paint - Anti-mold Basic",
+      "category": "painting",
+      "unit": "liter",
+      "base_cost": 15.0,
+      "supplier_margin": 0.12,
+      "quality_grade": "basic",
+      "availability_score": 0.95,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "primer": {
+      "name": "Wall Primer - Bathroom",
+      "category": "painting",
+      "unit": "liter",
+      "base_cost": 12.0,
+      "supplier_margin": 0.12,
+      "quality_grade": "standard",
+      "availability_score": 0.95,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "demolition_materials": {
+      "name": "Demolition Supplies",
+      "category": "consumables",
+      "unit": "m²",
+      "base_cost": 5.0,
+      "supplier_margin": 0.10,
+      "quality_grade": "basic",
+      "availability_score": 0.95,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    },
+    "electrical_supplies": {
+      "name": "Electrical Supplies - Bathroom",
+      "category": "electrical",
+      "unit": "unit",
+      "base_cost": 45.0,
+      "supplier_margin": 0.20,
+      "quality_grade": "standard",
+      "availability_score": 0.90,
+      "last_updated": "2025-08-30T14:30:22.123456",
+      "supplier_id": null
+    }
+  },
+  "regional_multipliers": {
+    "paris": 1.35,
+    "lyon": 1.15,
+    "marseille": 1.0,
+    "toulouse": 1.08,
+    "nice": 1.25,
+    "nantes": 1.05,
+    "strasbourg": 1.18,
+    "bordeaux": 1.12,
+    "lille": 1.10,
+    "montpellier": 1.03,
+    "rennes": 1.06,
+    "reims": 1.02
+  },
+  "export_timestamp": "2025-08-30T14:30:22.123456",
+  "version": "1.0"
+}

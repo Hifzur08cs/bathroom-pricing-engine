@@ -1,0 +1,93 @@
+{
+  "project_id": "BTH_20250830_142244",
+  "zone": "bathroom",
+  "city": "paris",
+  "total_area_sqm": 5.5,
+  "tasks": [
+    {
+      "task_type": "installation",
+      "description": "Install premium fixtures and custom vanity",
+      "area_sqm": 5.5,
+      "labor_hours": 9.9,
+      "labor_cost": 602.91,
+      "materials": [
+        {
+          "name": "Vanity Unit 60cm with Basin",
+          "quantity": 1.375,
+          "unit": "unit",
+          "unit_cost": 432.0,
+          "total_cost": 742.5
+        }
+      ],
+      "materials_cost": 742.5,
+      "skill_required": "skilled",
+      "complexity_factors": [
+        "premium_materials",
+        "custom_work"
+      ]
+    },
+    {
+      "task_type": "tiling",
+      "description": "Install small mosaic tiles with full waterproofing membrane in wet areas",
+      "area_sqm": 5.5,
+      "labor_hours": 15.4,
+      "labor_cost": 1706.91,
+      "materials": [
+        {
+          "name": "Ceramic Floor Tiles - Basic",
+          "quantity": 6.050000000000001,
+          "unit": "m²",
+          "unit_cost": 29.700000000000003,
+          "total_cost": 206.64
+        },
+        {
+          "name": "Flexible Tile Adhesive",
+          "quantity": 8.25,
+          "unit": "kg",
+          "unit_cost": 3.78,
+          "total_cost": 34.3
+        },
+        {
+          "name": "Waterproof Membrane",
+          "quantity": 5.5,
+          "unit": "m²",
+          "unit_cost": 16.200000000000003,
+          "total_cost": 102.47
+        }
+      ],
+      "materials_cost": 343.41,
+      "skill_required": "skilled",
+      "complexity_factors": [
+        "small_tiles",
+        "waterproofing"
+      ]
+    },
+    {
+      "task_type": "electrical",
+      "description": "New electrical circuits and lighting installation",
+      "area_sqm": 5.5,
+      "labor_hours": 11.0,
+      "labor_cost": 1036.75,
+      "materials": [
+        {
+          "name": "Electrical Supplies - Bathroom",
+          "quantity": 2.75,
+          "unit": "unit",
+          "unit_cost": 60.75000000000001,
+          "total_cost": 200.48
+        }
+      ],
+      "materials_cost": 200.48,
+      "skill_required": "specialist",
+      "complexity_factors": []
+    }
+  ],
+  "subtotal_materials": 1286.39,
+  "subtotal_labor": 3346.57,
+  "vat_amount": 579.12,
+  "total_price": 6370.32,
+  "margin_percentage": 0.25,
+  "confidence_score": 1.0,
+  "parsing_method": "openai",
+  "created_at": "2025-08-30T14:22:44.026421"
+}

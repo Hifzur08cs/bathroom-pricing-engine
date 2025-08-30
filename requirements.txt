@@ -1,0 +1,9 @@
+# requirements.txt
+# Core dependencies for Smart Bathroom Renovation Pricing Engine
+
+# OpenAI Integration (optional but recommended)
+openai
+
+# Basic Python utilities
+python-dateutil
+python-dotenv

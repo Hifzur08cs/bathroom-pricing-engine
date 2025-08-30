@@ -1,0 +1,179 @@
+{
+  "project_id": "BTH_20250830_141813",
+  "zone": "bathroom",
+  "city": "marseille",
+  "total_area_sqm": 4.0,
+  "tasks": [
+    {
+      "task_type": "demolition",
+      "description": "remove old tiles",
+      "area_sqm": 4.0,
+      "labor_hours": 6.0,
+      "labor_cost": 180.0,
+      "materials": [
+        {
+          "name": "Demolition Supplies",
+          "quantity": 4.0,
+          "unit": "m²",
+          "unit_cost": 5.0,
+          "total_cost": 22.0
+        }
+      ],
+      "materials_cost": 22.0,
+      "skill_required": "basic",
+      "complexity_factors": []
+    },
+    {
+      "task_type": "plumbing",
+      "description": "redo plumbing for the shower",
+      "area_sqm": 4.0,
+      "labor_hours": 10.0,
+      "labor_cost": 650.0,
+      "materials": [
+        {
+          "name": "Shower Mixer - Basic Chrome",
+          "quantity": 1.0,
+          "unit": "unit",
+          "unit_cost": 85.0,
+          "total_cost": 106.25
+        },
+        {
+          "name": "Wall-hung Toilet - Standard",
+          "quantity": 1.0,
+          "unit": "unit",
+          "unit_cost": 280.0,
+          "total_cost": 336.0
+        },
+        {
+          "name": "PVC Pipes and Fittings",
+          "quantity": 12.0,
+          "unit": "m",
+          "unit_cost": 8.5,
+          "total_cost": 117.3
+        }
+      ],
+      "materials_cost": 559.55,
+      "skill_required": "specialist",
+      "complexity_factors": []
+    },
+    {
+      "task_type": "plumbing",
+      "description": "replace toilet",
+      "area_sqm": 4.0,
+      "labor_hours": 10.0,
+      "labor_cost": 650.0,
+      "materials": [
+        {
+          "name": "Shower Mixer - Basic Chrome",
+          "quantity": 1.0,
+          "unit": "unit",
+          "unit_cost": 85.0,
+          "total_cost": 106.25
+        },
+        {
+          "name": "Wall-hung Toilet - Standard",
+          "quantity": 1.0,
+          "unit": "unit",
+          "unit_cost": 280.0,
+          "total_cost": 336.0
+        },
+        {
+          "name": "PVC Pipes and Fittings",
+          "quantity": 12.0,
+          "unit": "m",
+          "unit_cost": 8.5,
+          "total_cost": 117.3
+        }
+      ],
+      "materials_cost": 559.55,
+      "skill_required": "specialist",
+      "complexity_factors": []
+    },
+    {
+      "task_type": "installation",
+      "description": "install vanity",
+      "area_sqm": 4.0,
+      "labor_hours": 7.2,
+      "labor_cost": 302.4,
+      "materials": [
+        {
+          "name": "Vanity Unit 60cm with Basin",
+          "quantity": 1.0,
+          "unit": "unit",
+          "unit_cost": 320.0,
+          "total_cost": 400.0
+        }
+      ],
+      "materials_cost": 400.0,
+      "skill_required": "skilled",
+      "complexity_factors": []
+    },
+    {
+      "task_type": "painting",
+      "description": "repaint walls",
+      "area_sqm": 4.0,
+      "labor_hours": 4.0,
+      "labor_cost": 120.0,
+      "materials": [
+        {
+          "name": "Bathroom Paint - Anti-mold Basic",
+          "quantity": 0.8,
+          "unit": "liter",
+          "unit_cost": 15.0,
+          "total_cost": 13.44
+        },
+        {
+          "name": "Wall Primer - Bathroom",
+          "quantity": 0.6,
+          "unit": "liter",
+          "unit_cost": 12.0,
+          "total_cost": 8.06
+        }
+      ],
+      "materials_cost": 21.5,
+      "skill_required": "basic",
+      "complexity_factors": []
+    },
+    {
+      "task_type": "tiling",
+      "description": "lay new ceramic tiles",
+      "area_sqm": 4.0,
+      "labor_hours": 11.2,
+      "labor_cost": 470.4,
+      "materials": [
+        {
+          "name": "Ceramic Floor Tiles - Basic",
+          "quantity": 4.4,
+          "unit": "m²",
+          "unit_cost": 22.0,
+          "total_cost": 111.32
+        },
+        {
+          "name": "Flexible Tile Adhesive",
+          "quantity": 6.0,
+          "unit": "kg",
+          "unit_cost": 2.8,
+          "total_cost": 18.48
+        },
+        {
+          "name": "Waterproof Membrane",
+          "quantity": 4.0,
+          "unit": "m²",
+          "unit_cost": 12.0,
+          "total_cost": 55.2
+        }
+      ],
+      "materials_cost": 185.0,
+      "skill_required": "skilled",
+      "complexity_factors": []
+    }
+  ],
+  "subtotal_materials": 1747.6,
+  "subtotal_labor": 2372.8,
+  "vat_amount": 473.85,
+  "total_price": 5212.31,
+  "margin_percentage": 0.15,
+  "confidence_score": 1.0,
+  "parsing_method": "openai",
+  "created_at": "2025-08-30T14:18:13.160678"
+}
